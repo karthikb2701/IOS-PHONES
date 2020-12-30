@@ -1,0 +1,164 @@
+<html>
+<head>
+    <title>Post</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+    
+    .trending{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.all{
+    padding-top: 50px;
+    background-color: white;
+    text-decoration-color: aliceblue;
+    padding: 30px;
+    font-size: 30px;
+}
+.upperios{
+    padding: 20px;
+    background-color: black;
+    color: floralwhite;
+}
+.imageios{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    left: 500px;
+    top: 75px;
+}
+
+.contentlistios{
+    padding-left: 500px;
+    
+}
+th{
+     padding-right:200px;      
+}  
+        h1{
+            text-align:center;
+            padding-right:70px;
+            padding-top:30px;
+        }
+        th,td{
+            font-size:20px;
+        }
+        table{
+            padding-right:70px;
+        }
+        footer{
+    background-color: black;
+    color: aliceblue;
+    
+ 
+}
+
+    
+    
+    </style>
+    
+    
+    
+    
+    
+</head>
+
+<body>
+    <div class="upperios">
+            
+       <h2>Heyy! checkout the all new IOS phones</h2>
+       
+       </div>
+    
+     <div class="alli">
+       
+    <h1><%=title%></h1>
+    
+       
+    <div class="content">
+        
+    
+        <div class="imageios">
+        <img src="/images/<%=imageid %>"/>   
+        </div>
+            
+        
+             <div class="contentlistios" style="
+    padding-left: 0px;
+    margin-left: 400px;
+    margin-right: 500px;
+">
+        <table>
+            
+        <tr>
+        <th>Model no</th>
+        
+        <td><%=title%></td>
+        </tr>
+            
+        <tr>    
+      <th>Price</th>      
+    <td><%=priceid%></td>
+        </tr>
+    
+            <tr>
+            <th>Front Camera</th>
+            <td><%=frontcameraid%></td>
+            </tr>
+            
+            
+            <tr>
+            <th>Rear Camera</th>
+            <td><%=cameraid%></td>
+            </tr>
+            
+            <tr>
+            <th>Display</th>
+            <td><%=displayid%></td>
+            </tr> 
+            
+            <tr>
+            <th>RAM</th>
+            <td><%=ramid%></td>
+            </tr>    
+            
+            <tr>
+            <th>Battery</th>
+            <td><%=batteryid%></td>
+            </tr>   
+             
+             <tr>
+            <th>Processor</th>
+            <td><%=processorid%></td>
+            </tr>
+    </table>
+        
+        </div>
+        
+       
+       </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    <footer>
+        <p>&copy; Copywrite by Karthhikkk</p>
+    
+         
+    </footer>
+    
+    
+    
+    
+    
+    
+    </body>
+
+</html>

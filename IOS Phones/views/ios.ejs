@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>TO DO LIST</title></head>
+
+<body>
+    
+    <h1>Heyy ios users</h1>
+   
+    </body></html>
+
+
+
+<html>
+<head>
+    <title>TO DO LIST</title></head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+<body>
+    <h1>Beeg milta nhi</h1>
+    <div class="container">
+    <div class="row">
+    <% var no=posts %>
+    <% no.forEach(function(post){ %>
+   <div class="col-lg-6">
+<!--       <div class="data">-->
+<!--    <img src="/images/<%= post.imageid %>"/>-->
+       
+      <div class="specs">
+    <h1><%= post.title %></h1>
+    <p><%= post.productid %><p>
+    <p><%= post.priceid %><p>
+           </div>
+       </div>
+<!--        </div>-->
+<% }); %>
+    </div>
+    </div>
+    </body></html> 
